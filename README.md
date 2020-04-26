@@ -21,9 +21,9 @@ Follow all the steps below if you want to get this project up and running on you
   * <strong>Step 5</strong>: Click 'Create'
 
 * Install <strong>Django</strong> in your project's venv:
-  * Step 1: Make sure that the Python interpreter is your local venv. To check this go to 'File' -> 'Settings' -> 'Project: <name_of_the_project>'-> 'Python Interpreter' and here select your venv if it's not selected already.
-  * Step 2: Make sure that when you open 'Terminal' from Pycharm you have the venv activated (if you don't type the following command: `venv\Scripts\avtivate` and press Enter). If the venv is activated it will appear like this '(venv)' in the front of the line (Example: '(venv) D:\1_Ana\3_Info\11_Facultate\Anul_III\Licenta\TravelApp\travelapp>')
-  * Step 3: Open <strong>Terminal</strong> and run the following command: `pip install Django==2.2.8`
+  * <strong>Step 1</strong>: Make sure that the Python interpreter is your local venv. To check this go to 'File' -> 'Settings' -> 'Project: <name_of_the_project>'-> 'Python Interpreter' and here select your venv if it's not selected already.
+  * <strong>Step 2</strong>: Make sure that when you open 'Terminal' from Pycharm you have the venv activated (if you don't type the following command: `venv\Scripts\avtivate` and press Enter). If the venv is activated it will appear like this '(venv)' in the front of the line (Example: '(venv) D:\1_Ana\3_Info\11_Facultate\Anul_III\Licenta\TravelApp\travelapp>')
+  * <strong>Step 3</strong>: Open <strong>Terminal</strong> and run the following command: `pip install Django==2.2.8`
   
 * Create a Django project within the Pycharm project just created:
   * In 'Terminal' type `django-admin startproject <name>`
