@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form role="form" action="{% url 'user_login' %}" method="post">
+        {% csrf_token %} <!-- This is used for security. The form will not work without this tag inside it. -->
+
+        <p>Please login.</p>
+
+        {{ form }} <!-- 'crispy' is a bootstrap filter to make the form look nicer. -->
+
+        <button type="submit" class="btn btn-success"> Sign in </button>
+    </form>
+</body>
+</html>
