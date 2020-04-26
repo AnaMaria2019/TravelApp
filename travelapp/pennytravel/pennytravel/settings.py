@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
+    'app',
 ]
 
 MIDDLEWARE = [
@@ -122,3 +124,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+# For the styling of the forms with django-crispy-forms we need to specify which version of
+# bootstrap to use. In this case, in the course it's used bootstrap 3.
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
