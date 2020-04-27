@@ -128,3 +128,8 @@ STATICFILES_DIRS = [
 # For the styling of the forms with django-crispy-forms we need to specify which version of
 # bootstrap to use. In this case, in the course it's used bootstrap 3.
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# We need to tell Django where to redirect a successfully log in/log out user.
+LOGIN_REDIRECT_URL = 'app_welcome'
+LOGOUT_REDIRECT_URL = 'app_welcome'
+LOGIN_URL = 'user_login'
