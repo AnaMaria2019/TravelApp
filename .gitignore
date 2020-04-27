@@ -15,3 +15,8 @@ misc
 *.iml
 *.pyc
 **/venv
+
+###############################
+# Additional help directories #
+###############################
+/Help_Links
