@@ -7,7 +7,11 @@ from django.urls import reverse_lazy
 
 
 def welcome(request):
-    return render(request, 'welcome.html')
+    return render(request, 'app/home_welcome.html')
+
+
+def about(request):
+    return render(request, 'app/about.html')
 
 
 class SignUpView(CreateView):  # 'CreateView' is a generic class view that uses a form to create, validate and save
