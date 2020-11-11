@@ -26,5 +26,6 @@ Follow all the steps below if you want to get this project up and running on you
   * <strong>Step 3</strong>: Open <strong>Terminal</strong> and run the following command: `pip install Django==2.2.8`
   
 * Create a Django project within the Pycharm project just created:
-  * In 'Terminal' type `django-admin startproject <name>`
-  * In 'Terminal' type `python manage.py startapp <app_name>`
+  * In 'Terminal' type `django-admin startproject <project_name>`
+  * In 'Terminal' type `cd <project_name>` to enter in the project's directory
+  * In 'Terminal' type `python manage.py startapp <app_name>` to create a Django app
