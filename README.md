@@ -27,3 +27,4 @@ Follow all the steps below if you want to get this project up and running on you
   
 * Create a Django project within the Pycharm project just created:
   * In 'Terminal' type `django-admin startproject <name>`
+  * In 'Terminal' type `python manage.py startapp <app_name>`
